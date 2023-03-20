@@ -106,7 +106,7 @@ export default {
   computed: {
     prefix() {
       const currentLocation = window.location;
-      if (currentLocation.pathname.includes('/carbon-components-vue/')) return '/carbon-components-vue/';
+      if (currentLocation.pathname.includes('/carbon-components-vue/')) return '/carbon-components-vue';
       return '';
     },
     vue3Url() {
