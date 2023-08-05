@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.0.8-alpha.0](https://github.com/carbon-design-system/carbon-components-vue/compare/@carbon/vue@3.0.7-alpha.0...@carbon/vue@3.0.8-alpha.0) (2023-08-05)
+
+### Bug Fixes
+
+- add doc for rail expand event. side effect add ts file ([341a260](https://github.com/carbon-design-system/carbon-components-vue/commit/341a260d58aea8add717d9bdbe43b39fcef2c4c7))
+- emit expanded for rail hover events ([02e6bd2](https://github.com/carbon-design-system/carbon-components-vue/commit/02e6bd25ef499ac98ce303d50e877b812e7fd012))
+- fix checkbox disabled attriubute to solve CvMultiSelect story issue ([bd455a7](https://github.com/carbon-design-system/carbon-components-vue/commit/bd455a70822176a8d7116e0f494d4919bdb99a91))
+- **lint:** fix eslint err ([c413b52](https://github.com/carbon-design-system/carbon-components-vue/commit/c413b5249428d7ab98c3b0abf8269bfb1fb30444))
+- story params reactive ([dbe5ee6](https://github.com/carbon-design-system/carbon-components-vue/commit/dbe5ee69a965c48cede7ad19abab53840c22552a))
+
+### Features
+
+- merge vNext update package.json ([8b8275d](https://github.com/carbon-design-system/carbon-components-vue/commit/8b8275dac3a1f53c0e63c1ee2f5954f80fea27d5))
+- port CvCheckboxSkeleton to Vue3 ([f7b10cb](https://github.com/carbon-design-system/carbon-components-vue/commit/f7b10cb52eb0a24db4353294c60025c174894413))
+- ported CvRadioButton to Vue3 ([9ba9ce6](https://github.com/carbon-design-system/carbon-components-vue/commit/9ba9ce66fd0c792a6c6850b11a329e64b9c8f65c))
+
 ## [3.0.7-alpha.0](https://github.com/carbon-design-system/carbon-components-vue/compare/@carbon/vue@3.0.6-alpha.0...@carbon/vue@3.0.7-alpha.0) (2023-07-23)
 
 ### Bug Fixes
