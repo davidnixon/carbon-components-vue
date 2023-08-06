@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.0.10-alpha.0](https://github.com/carbon-design-system/carbon-components-vue/compare/@carbon/vue@3.0.9-alpha.0...@carbon/vue@3.0.10-alpha.0) (2023-08-06)
+
+### Bug Fixes
+
+- correct ts file ([5c9e354](https://github.com/carbon-design-system/carbon-components-vue/commit/5c9e354f345e3bc61eabca50c68cc335f87f69aa))
+
 ## [3.0.9-alpha.0](https://github.com/carbon-design-system/carbon-components-vue/compare/@carbon/vue@3.0.7-alpha.0...@carbon/vue@3.0.9-alpha.0) (2023-08-05)
 
 ### Bug Fixes
