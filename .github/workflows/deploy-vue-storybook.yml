@@ -43,22 +43,6 @@ jobs:
           cd ${GITHUB_WORKSPACE}/storybook
           yarn build-storybook --quiet --output-dir ${GITHUB_WORKSPACE}/storybook/storybook-static/
 
-      - name: Switch to Vue 2 branch
-        uses: actions/checkout@v3
-        with:
-          ref: vue2
-          clean: false
-          path: vue2
-      - name: Install vue2 dependencies
-        run: |
-          cd ${GITHUB_WORKSPACE}/vue2
-          yarn install --offline
-      - name: Build Vue 2 storybook
-        run: |
-          cd ${GITHUB_WORKSPACE}/vue2
-          yarn info @carbon/vue --json > package-info.jsonl
-          npx vue-cli-service storybook:build -c storybook/.storybook  --output-dir ${GITHUB_WORKSPACE}/storybook/storybook-static/vue2
-
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload artifact
